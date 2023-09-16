@@ -1,7 +1,7 @@
-"use client"
+// "use client"
 
-import { 
-  Nav,
+import { Nav } from '@/components';
+import {
   Hero, 
   CustomerReviews, 
   Footer, 
@@ -9,8 +9,8 @@ import {
   Services,
   SpecialOffer,
   Subscribe,
-  SuperQuality
-} from '@/components';
+  SuperQuality,
+} from '@/sections';
 
 const HomePage = () => (
   <main className="relative">
