@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/sections/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -33,8 +34,8 @@ module.exports = {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        'hero': "url('assets/images/collection-background.svg')",
-        'card': "url('assets/images/thumbnail-background.svg')",
+        'hero': "url('/images/collection-background.svg')",
+        'card': "url('/images/thumbnail-background.svg')",
       },
       screens: {
         "wide": "1440px"
